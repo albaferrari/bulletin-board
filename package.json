@@ -1,0 +1,19 @@
+{
+  "name": "bulletin-board",
+  "version": "1.0.0",
+  "description": "Bulletin board app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/albaferrari/bulletin-board.git"
+  },
+  "author": "Alba Ferrari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/albaferrari/bulletin-board/issues"
+  },
+  "homepage": "https://github.com/albaferrari/bulletin-board#readme"
+}
