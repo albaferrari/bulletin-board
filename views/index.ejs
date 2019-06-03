@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Home</title>
+</head>
+<body>
+
+    <div class="menu">
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/messages">Messages</a></li>
+        </ul>
+    </div>
+
+<main>
+
+    <div class="logoContainer">
+       <img src="../images/logo.png" alt="doggo" class="logoLeft" /> 
+    </div>
+    
+
+    <div class="intro">
+        <p>Do you feel the uncontrollable need
+            to clog up my Instagram dms telling me that my dog looks like a little lion?</p>
+
+            <h2 class="pink">THIS WEBSITE IS PERFECT FOR YOU!</h2>
+
+         <p>Below you can say it as many times as you want and i won't
+             have to answer!!<br>It's a win-win!</p>
+    </div>
+    
+    <div class="logoContainer">
+        <img src="/images/logo.png" alt="doggo" class="logoRight" />
+    </div>
+    
+
+</main>
+
+    <section>
+            <form method="POST" action="/addMessage" class="inputFields">
+            <input type="text" placeholder="message title here" name="newTitle" class="messageTitle">
+            <textarea class="messageBody" rows="8" cols="50" placeholder="Little lion text here" name="newBody"></textarea>
+            <input type="submit" placeholder="Send" class="submitButton">
+            </form>
+    </section>
+    
+</body>
+</html>
